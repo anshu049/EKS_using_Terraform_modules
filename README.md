@@ -8,7 +8,7 @@
 
 # policy for EKS nodegroup
 (https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md)
-`{
+{
   "Version": "2012-10-17",
   "Statement": [
     {
@@ -36,4 +36,4 @@
       "Resource": ["*"]
     }
   ]
-}`
+}
